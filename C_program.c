@@ -47,3 +47,31 @@ void main()
     printf("%c=%d",a,a);
 }
 ////////////////////////////////////////
+#include <stdio.h>
+#include <limits.h>
+void main()
+{
+    printf("abcd\fefgh\fijkl\fmnop");
+}
+///////////////////////////////////
+#include <stdio.h>
+#include <limits.h>
+void main()
+{
+    printf("abcd\befg");
+}
+//////////////////////////////////
+#include <stdio.h>
+#include <limits.h>
+void main()
+{
+    printf("abcd\refgh");
+}
+/////////////////////////////////
+#include <stdio.h>
+#include <limits.h>
+void main()
+{
+    printf("abcd\nefgh\nijkl\nmnop");
+}
+/////////////////////////////////////
