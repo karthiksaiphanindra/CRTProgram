@@ -75,3 +75,19 @@ void main()
     printf("abcd\nefgh\nijkl\nmnop");
 }
 /////////////////////////////////////
+octal of a value 
+#include <stdio.h>
+void main()
+{
+    int a=29;
+    printf("%o",a);
+}
+//////////////////////////////
+hexadecilam of a value 
+#include <stdio.h>
+void main()
+{
+    int a=29;
+    printf("%d",a);
+}
+///////////////////////
