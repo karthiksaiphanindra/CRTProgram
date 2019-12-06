@@ -17,3 +17,33 @@ void main()
     float a=2.56489;
     printf("%f\n",a);
 }
+///////////////////////////////////////////
+for printing the ascii value of the value 
+#include <stdio.h>
+#include <limits.h>
+void main()
+{
+    int a=65;
+    printf("%c",a);
+}
+////////////////////////////////////////
+for finding the ascii vlaues of capital case letters
+#include <stdio.h>
+#include <limits.h>
+void main()
+{
+    int a=65;
+    for(a=65;a<=90;a++)
+    printf("%c=%d",a,a);
+}
+/////////////////////////////////////////
+for findinf the ascii values of lower case letters
+#include <stdio.h>
+#include <limits.h>
+void main()
+{
+    int a=97;
+    for(a=97;a<=123;a++)
+    printf("%c=%d",a,a);
+}
+////////////////////////////////////////
